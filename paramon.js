@@ -76,7 +76,7 @@ paramon.readParam = function(argv, format, ret){
 					});
 				}
 			}
-			ret[format.name] = format.maxParams < 2 ? (format.maxParams ? params[0] : true ) : params;
+			ret[format.name] = format.maxParams > 1 ? params : format.maxParams === 1 ? params[0] : format.maxParams === -1 ? params : true ;
 			format.onfound && format.onfound.apply(format, params);
 		}
 	}
