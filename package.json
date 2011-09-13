@@ -1,0 +1,21 @@
+{
+	"name":		"paramon",
+	"author":	"Jussi Kalliokoski",
+	"version":	"0.1.0",
+	"description":	"A tool for parsing command line arguments",
+	"tags":		"cli command line parse",
+	"repository":	{
+		"type":		"git",
+		"url":		"http://github.com/jussi-kalliokoski/paramon.git"
+	},
+	"engines":	{
+		"node":		">=0.2.0-0"
+	},
+	"licenses":	[{
+		"type":		"MIT"
+	}],
+	"bugs":		{
+		"web":		"http://github.com/jussi-kalliokoski/paramon/issues"
+	},
+	"main":		"./paramon.js"
+}
