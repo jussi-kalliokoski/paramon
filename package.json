@@ -17,5 +17,5 @@
 	"bugs":		{
 		"web":		"http://github.com/jussi-kalliokoski/paramon/issues"
 	},
-	"main":		"./paramon.js"
+	"main":		"paramon.js"
 }
