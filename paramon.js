@@ -148,7 +148,7 @@ paramon.Format.prototype = {
 		console.log(this.name + ' ' + this.usage);
 		console.log('Options / flags:');
 		this.params.forEach(function(param){
-			l = Math.max(l, param.args.join(' ').length);
+			l = Math.max(l, param.args.join(' ').length + 1);
 		});
 		console.log('\t' + pad(this.helpParams.split(';').join(' ')) + 'Shows this screen.');
 		this.params.forEach(function(param){
